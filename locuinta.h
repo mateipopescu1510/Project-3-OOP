@@ -48,7 +48,7 @@ public:
 
 protected:
     static int X; // valoarea standard
-    int Y;        // daca se aplica discout sau nu
+    int Y;        // daca se aplica discount sau nu
     std::string numeClient;
     int suprafataUtila;
     float discount;
@@ -183,7 +183,3 @@ public:
     friend std::istream &operator>>(std::istream &, AgentieImobiliara &);
     friend std::ostream &operator<<(std::ostream &, const AgentieImobiliara &);
 };
-
-// 0 1
-// size = 2
-// 1 2
